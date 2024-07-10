@@ -13,3 +13,8 @@ const student = {
 };
 
 /** Add your code below */
+const updatedStudent = updateStudentImmutably(student);
+
+console.log(updatedStudent);
+
+console.log(student);

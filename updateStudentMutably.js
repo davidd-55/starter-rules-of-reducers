@@ -11,3 +11,8 @@ const student = {
 };
 
 /** Add your code below */
+const updatedStudent = updateStudentMutably(student);
+
+console.log(updatedStudent);
+
+console.log(student);
